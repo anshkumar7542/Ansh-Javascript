@@ -51,3 +51,30 @@ console.log(typeof anotherId);
 //myFunction = "function"
 //anotherId = "symbol"
 
+
+
+//                   Memory
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive)(copy milti h isme), 
+// Heap(non-primitive)(reference milta h isme)
+
+let myYoutubename = "Anshsinghdotcom"
+let anothername = myYoutubename
+anothername="official_personality111"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ansh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
